@@ -7,7 +7,7 @@ def initialize(words)
 end
 
 def match(words)
-  words.each {|word| word.split("") == word.split("")}
+  words.select {|word| word.split("") == word.split("")}
 end
 
 end
