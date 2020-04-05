@@ -9,3 +9,5 @@ end
 def match(word)
   word.split("") == word
 end
+
+end
