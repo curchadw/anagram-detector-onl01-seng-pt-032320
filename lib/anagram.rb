@@ -6,7 +6,7 @@ def initialize(words)
 @words = words
 end
 
-def match(words)
+def match(array)
   words.select {|word| word.split("") == word.split("")}
 end
 
