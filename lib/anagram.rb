@@ -7,5 +7,5 @@ def initialize(word)
 end
 
 def match(word)
-  
+  word.sort == word.sort
 end
